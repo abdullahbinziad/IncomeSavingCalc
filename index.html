@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <!-- link bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link stylesheet  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- header part's title  -->
+    <head>
+        <h1 class="text-center mt-5">Calculatate Man</h1>
+    </head>
+    <main>
+        <div class="row row-cols-1 row-cols-md-2 g-4 p-5 shadow-lg p-3 mb-5 bg-body rounded mt-2 ml-2 mr-2">
+            <div class="col">
+              <div class="card">
+                <img src="img.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Income</h5>
+                  <p class="card-text">
+                      <h4>Income: <input type="text" name="" id="income-input"> </h4>
+                  </p>
+                  <h5 class="card-title text-center">Expenses</h5>
+                  <p class="card-text">
+                    <h4> Food: <input id="food-price" type="text"> </h4>
+                </p>
+                  <p class="card-text">
+                    <h4> Rent: <input id="rent-price" type="text"> </h4>
+                </p>
+                  <p class="card-text">
+                    <h4> clothes <input id="clothes-price" type="text"> </h4>
+                </p>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button id="calc-btn"class="btn btn-primary" type="button">CALCULATE</button><br>
+                </div>
+                <h5 class="card-title text-center">Total Expenses : <span id="total-expenses">0</span> </h5>
+                <h5 class="card-title text-center">Balance : <span id="balance-select">0</span> </h5>
+                <p class="card-text">
+                    <h4> save: <input id="save-input" type="text"> % <button id="save-btn" class="btn btn-primary" type="button">SAVE</button></h4>
+                </p>
+                <h5 class="card-title text-center">Saving Amount : <span id="saving-value">0</span> </h5>
+                <h5 class="card-title text-center">Remaining Balance : <span id="remaingBl">67</span> </h5>
+
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
